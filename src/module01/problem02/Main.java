@@ -13,7 +13,10 @@ public class Main {
             }else{
                 System.out.print(startNumber);
             }
-            System.out.print(",");
+            if(counter != 10){
+                System.out.print(",");
+            }
+
             startNumber++;
             counter++;
 
