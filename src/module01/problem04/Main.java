@@ -12,11 +12,11 @@ public class Main {
         System.out.print("Tangan Abu : ");
         String[] abu = input.nextLine().split(" ");
         System.out.print("Tangan Bagas : ");
-        String[] Bagas = input.nextLine().split(" ");
+        String[] bagas = input.nextLine().split(" ");
 
         for (int i = 0; i < 3; i++) {
-            if(!abu[i].equals(Bagas[i])){
-                if(abu[i].equals("B") && Bagas[i].equals("G") || abu[i].equals("G") && Bagas[i].equals("K") || abu[i].equals("K") && Bagas[i].equals("B")){
+            if(!abu[i].equals(bagas[i])){
+                if(abu[i].equals("B") && bagas[i].equals("G") || abu[i].equals("G") && bagas[i].equals("K") || abu[i].equals("K") && bagas[i].equals("B")){
                     pointAbu++;
                 } else {
                     pointBagas++;
