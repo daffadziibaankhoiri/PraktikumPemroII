@@ -45,7 +45,7 @@ public class Main {
                 }
 
                 case 2: {
-                    System.out.print("Masukkan NIM yang ingin dihapus: ");
+                    System.out.print("Masukkan NIM Mahasiswa yang akan dihapus: ");
                     String nim = input.nextLine();
 
                     boolean isIdFound = false;
